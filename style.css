@@ -1,0 +1,20 @@
+div {
+     font-family: 'Lato', sans-serif;
+}
+h1 {
+     font-size: 44px;
+     font-weight: 900;
+     margin-top:40px;
+}
+h1.title {
+     font-size: 24px;
+     color: Grey;
+}
+body {
+     font-size: 16px;
+     font-weight: 300;
+}
+img {
+     max-width: 100%;
+     height: auto;
+}
