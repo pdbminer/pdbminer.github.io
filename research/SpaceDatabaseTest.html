@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Test of results table</title>
+<style>
+    h1 {
+      font-size: 44px;
+      font-weight: 900;
+      font-family: 'Lato', sans-serif;
+    }
+    h2 {
+      font-size: 22px;
+      font-weight: 800;
+      font-family: 'Lato', sans-serif;
+    }
+    body {
+      font-size: 14px;
+      font-weight: 300;
+      font-family: 'Lato', sans-serif;
+      background-color: white;
+    }
+    div.margin1 {
+      margin: 40px;
+      }
+</style>
+<script src="lib/jquery-3.5.1/jquery.min.js"></script>
+<link href="lib/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="lib/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="lib/selectize-0.12.4/css/selectize.bootstrap3.css" rel="stylesheet" />
+<script src="lib/selectize-0.12.4/js/selectize.min.js"></script>
+<script src="lib/ionrangeslider-javascript-2.3.1/js/ion.rangeSlider.min.js"></script>
+<script src="lib/strftime-0.9.2/strftime-min.js"></script>
+<link href="lib/ionrangeslider-css-2.3.1/css/ion.rangeSlider.css" rel="stylesheet" />
+<script src="lib/core-js-2.5.3/shim.min.js"></script>
+<script src="lib/react-17.0.0/react.min.js"></script>
+<script src="lib/react-17.0.0/react-dom.min.js"></script>
+<script src="lib/reactwidget-1.0.0/react-tools.js"></script>
+<script src="lib/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<link href="lib/reactable-0.4.4/reactable.css" rel="stylesheet" />
+<script src="lib/reactable-binding-0.4.4/reactable.js"></script>
+</head>
+
+<body>
+<div class="margin1">
+<h2>Test of space results database</h2>
+<p>&nbsp;</p>
+<div style="display: flex; &#10;          flex-wrap: wrap; &#10;          justify-content: space-between;&#10;          row-gap: 40px;">
+  <div style="width: 30%">
+    <div id="type" class="form-group crosstalk-input-checkboxgroup crosstalk-input">
+      <label class="control-label" for="type">Geography type</label>
+      <div class="crosstalk-options-group">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="type" value="Admin boundary"/>
+            <span>Admin boundary</span>
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="type" value="Built-up area"/>
+            <span>Built-up area</span>
+          </label>
+        </div>
+      </div>
+      <script type="application/json" data-for="type">{
+  "map": {
+    "Admin boundary": ["1", "3", "5", "7"],
+    "Built-up area": ["2", "4", "6", "8"]
+  },
+  "group": ["SharedDataaf25ef47"]
+}</script>
+    </div>
+  </div>
+  <div style="width: 30%">
+    <div id="geo" class="form-group crosstalk-input-select crosstalk-input">
+      <label class="control-label" for="geo">Filter geographies</label>
+      <div>
+        <select multiple></select>
+        <script type="application/json" data-for="geo">{
+  "items": {
+    "value": ["BCP authority", "Bournemouth BUA", "Edinburgh BUA", "Edinburgh Council", "Leeds authority", "Leeds BUA", "Telford authority", "Telford BUA"],
+    "label": ["BCP authority", "Bournemouth BUA", "Edinburgh BUA", "Edinburgh Council", "Leeds authority", "Leeds BUA", "Telford authority", "Telford BUA"]
+  },
+  "map": {
+    "BCP authority": ["5"],
+    "Bournemouth BUA": ["6"],
+    "Edinburgh BUA": ["2"],
+    "Edinburgh Council": ["1"],
+    "Leeds authority": ["3"],
+    "Leeds BUA": ["4"],
+    "Telford authority": ["7"],
+    "Telford BUA": ["8"]
+  },
+  "group": ["SharedDataaf25ef47"]
+}</script>
+      </div>
+    </div>
+  </div>
+  <div style="width: 30%">
+    <div class="form-group crosstalk-input crosstalk-input-slider js-range-slider" id="spacepp" style="width: 100%;">
+      <label class="control-label" for="spacepp">Total car space per capita</label>
+      <input data-skin="shiny" data-type="double" data-min="24.59" data-max="53.91" data-from="24.59" data-to="53.91" data-step="0.5" data-grid="true" data-grid-num="9.77333333333333" data-grid-snap="false" data-prettify-separator="," data-keyboard="true" data-keyboard-step="1.70532060027285" data-drag-interval="true" data-data-type="number"/>
+      <script type="application/json" data-for="spacepp">{
+  "values": [24.59, 27.61, 30.02, 31.11, 34.7, 38.19, 43.13, 53.91],
+  "keys": ["6", "2", "4", "5", "1", "3", "8", "7"],
+  "group": ["SharedDataaf25ef47"]
+}</script>
+    </div>
+  </div>
+  <div style="width: 100%">
+    <div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-15345984e7f86429a0e8" style="width:auto;height:auto;"></div>
+    <script type="application/json" data-for="htmlwidget-15345984e7f86429a0e8">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Geography":["Edinburgh Council","Edinburgh BUA","Leeds authority","Leeds BUA","BCP authority","Bournemouth BUA","Telford authority","Telford BUA"],"Type":["Admin boundary","Built-up area","Admin boundary","Built-up area","Admin boundary","Built-up area","Admin boundary","Built-up area"],"Land_area":[265185342,102414375,551717869,120011250,174119803,38745000,290473491,55150000],"Population":[526470,506520,811953,536208,400196,196544,185541,156941],"Density_km2":[1985.2907254579704,4945.7900807381775,1471.6815343894543,4467.9811267693649,2298.3945140346846,5072.7577751968001,638.75364103363222,2845.7116953762466],"Road_space":[15407576,11887901,27021918,13780083,10899631,4365802,8852081,5746975],"Tracks":[538959,43533,"NA","NA","NA","NA","NA","NA"],"Parking_space":[2860795,2095238,3983707,2316283,1549877,467148,1149815,1021951],"Pavements":[5446109,4875235,9877578,6419066,4761403,2165940,2170041,1858176],"Paths":[2598550,2170000,3694318,2397287,1351153,468134,1400157,1197848],"Total_car_space":[18268371,13983139,31005625,16096366,12449508,4832950,10001896,6768926],"Total_walk_cycle":[8044659,7045235,13571896,8816353,6112556,2634074,3570198,3056024],"Road_space_PP":[29.27,23.469999999999999,33.280000000000001,25.699999999999999,27.239999999999998,22.210000000000001,47.710000000000001,36.619999999999997],"Tracks_PP":[1.02,0.089999999999999997,"NA","NA","NA","NA","NA","NA"],"Parking_space_PP":[5.4299999999999997,4.1399999999999997,4.9100000000000001,4.3200000000000003,3.8700000000000001,2.3799999999999999,6.2000000000000002,6.5099999999999998],"Pavements_PP":[10.34,9.6199999999999992,12.17,11.970000000000001,11.9,11.02,11.699999999999999,11.84],"Paths_PP":[4.9400000000000004,4.2800000000000002,4.5499999999999998,4.4699999999999998,3.3799999999999999,2.3799999999999999,7.5499999999999998,7.6299999999999999],"Total_car_space_PP":[34.700000000000003,27.609999999999999,38.189999999999998,30.02,31.109999999999999,24.59,53.909999999999997,43.130000000000003],"Total_walk_cycle_PP":[15.279999999999999,13.91,16.719999999999999,16.440000000000001,15.27,13.4,19.239999999999998,19.469999999999999],"Roads_v_walk_cycle":[1.9152553265464702,1.6873675611956167,1.9910201198122945,1.5630139809510804,1.7831543792809423,1.6574333143260211,2.479436994810932,1.8805398779590736]},"columns":[{"id":"Geography","name":"Geography","type":"character","format":{"cell":{"digits":0,"separators":true},"aggregated":{"digits":0,"separators":true}},"header":"Geography","headerVAlign":"center","minWidth":150,"align":"left","sticky":"left","style":{"borderRight":"2px solid #555"},"headerStyle":{"borderRight":"2px solid #555"}},{"id":"Type","name":"Type","type":"character","format":{"cell":{"digits":0,"separators":true},"aggregated":{"digits":0,"separators":true}},"header":"Type","headerVAlign":"center","show":false},{"id":"Land_area","name":"Land_area","type":"numeric","format":{"cell":{"digits":0,"separators":true},"aggregated":{"digits":0,"separators":true}},"header":"Land area","headerVAlign":"center"},{"id":"Population","name":"Population","type":"numeric","format":{"cell":{"digits":0,"separators":true},"aggregated":{"digits":0,"separators":true}},"header":"Population","headerVAlign":"center"},{"id":"Density_km2","name":"Density_km2","type":"numeric","format":{"cell":{"digits":0,"separators":true},"aggregated":{"digits":0,"separators":true}},"header":"Density km2","headerVAlign":"center"},{"id":"Road_space","name":"Road_space","type":"numeric","format":{"cell":{"digits":0,"separators":true},"aggregated":{"digits":0,"separators":true}},"header":"Road space","headerVAlign":"center"},{"id":"Tracks","name":"Tracks","type":"numeric","format":{"cell":{"digits":0,"separators":true},"aggregated":{"digits":0,"separators":true}},"header":"Tracks","headerVAlign":"center","show":false},{"id":"Parking_space","name":"Parking_space","type":"numeric","format":{"cell":{"digits":0,"separators":true},"aggregated":{"digits":0,"separators":true}},"header":"Parking space","headerVAlign":"center"},{"id":"Pavements","name":"Pavements","type":"numeric","format":{"cell":{"digits":0,"separators":true},"aggregated":{"digits":0,"separators":true}},"header":"Pavements","headerVAlign":"center"},{"id":"Paths","name":"Paths","type":"numeric","format":{"cell":{"digits":0,"separators":true},"aggregated":{"digits":0,"separators":true}},"header":"Paths","headerVAlign":"center"},{"id":"Total_car_space","name":"Total_car_space","type":"numeric","format":{"cell":{"digits":0,"separators":true},"aggregated":{"digits":0,"separators":true}},"header":"Total car space","headerVAlign":"center"},{"id":"Total_walk_cycle","name":"Total_walk_cycle","type":"numeric","format":{"cell":{"digits":0,"separators":true},"aggregated":{"digits":0,"separators":true}},"header":"Total walk cycle","headerVAlign":"center"},{"id":"Road_space_PP","name":"Road_space_PP","type":"numeric","format":{"cell":{"digits":2},"aggregated":{"digits":2}},"header":"Road space PP","headerVAlign":"center","style":[{"backgroundImage":"linear-gradient(90deg, transparent 44.7851603437434%, #bcbddc 44.7851603437434%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 55.7262628379795%, #bcbddc 55.7262628379795%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 37.2207084468665%, #bcbddc 37.2207084468665%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 51.5195975686439%, #bcbddc 51.5195975686439%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 48.6145462167261%, #bcbddc 48.6145462167261%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 58.1031230350031%, #bcbddc 58.1031230350031%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 10%, #bcbddc 10%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 30.920142527772%, #bcbddc 30.920142527772%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null}]},{"id":"Tracks_PP","name":"Tracks_PP","type":"numeric","format":{"cell":{"digits":0,"separators":true},"aggregated":{"digits":0,"separators":true}},"header":"Tracks PP","headerVAlign":"center","show":false},{"id":"Parking_space_PP","name":"Parking_space_PP","type":"numeric","format":{"cell":{"digits":2},"aggregated":{"digits":2}},"header":"Parking space PP","headerVAlign":"center","style":[{"backgroundImage":"linear-gradient(90deg, transparent 24.9308755760369%, #bcbddc 24.9308755760369%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 42.7649769585253%, #bcbddc 42.7649769585253%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 32.1198156682028%, #bcbddc 32.1198156682028%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 40.2764976958525%, #bcbddc 40.2764976958525%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 46.4976958525345%, #bcbddc 46.4976958525345%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 67.0967741935484%, #bcbddc 67.0967741935484%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 14.2857142857143%, #bcbddc 14.2857142857143%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 10%, #bcbddc 10%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null}]},{"id":"Pavements_PP","name":"Pavements_PP","type":"numeric","format":{"cell":{"digits":2},"aggregated":{"digits":2}},"header":"Pavements PP","headerVAlign":"center","style":[{"backgroundImage":"linear-gradient(90deg, transparent 23.5332785538209%, #bcbddc 23.5332785538209%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 28.8578471651602%, #bcbddc 28.8578471651602%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 10%, #bcbddc 10%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 11.4790468364831%, #bcbddc 11.4790468364831%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 11.9967132292523%, #bcbddc 11.9967132292523%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 18.5045193097781%, #bcbddc 18.5045193097781%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 13.4757600657354%, #bcbddc 13.4757600657354%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 12.4404272801972%, #bcbddc 12.4404272801972%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null}]},{"id":"Paths_PP","name":"Paths_PP","type":"numeric","format":{"cell":{"digits":2},"aggregated":{"digits":2}},"header":"Paths PP","headerVAlign":"center","style":[{"backgroundImage":"linear-gradient(90deg, transparent 41.7300131061599%, #bcbddc 41.7300131061599%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 49.5150720838794%, #bcbddc 49.5150720838794%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 46.3302752293578%, #bcbddc 46.3302752293578%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 47.2739187418087%, #bcbddc 47.2739187418087%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 60.1310615989515%, #bcbddc 60.1310615989515%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 71.9266055045872%, #bcbddc 71.9266055045872%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 10.9436435124508%, #bcbddc 10.9436435124508%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 10%, #bcbddc 10%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null}]},{"id":"Total_car_space_PP","name":"Total_car_space_PP","type":"numeric","format":{"cell":{"digits":2},"aggregated":{"digits":2}},"header":"Total car space PP","headerVAlign":"center","style":[{"backgroundImage":"linear-gradient(90deg, transparent 42.0701168614357%, #bcbddc 42.0701168614357%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 53.906510851419%, #bcbddc 53.906510851419%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 36.2437395659432%, #bcbddc 36.2437395659432%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 49.8831385642738%, #bcbddc 49.8831385642738%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 48.0634390651085%, #bcbddc 48.0634390651085%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 58.9482470784641%, #bcbddc 58.9482470784641%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 10%, #bcbddc 10%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 27.9966611018364%, #bcbddc 27.9966611018364%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null}]},{"id":"Total_walk_cycle_PP","name":"Total_walk_cycle_PP","type":"numeric","format":{"cell":{"digits":2},"aggregated":{"digits":2}},"header":"Total walk cycle PP","headerVAlign":"center","style":[{"backgroundImage":"linear-gradient(90deg, transparent 29.3682588597843%, #bcbddc 29.3682588597843%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 35.7010785824345%, #bcbddc 35.7010785824345%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 22.7118644067797%, #bcbddc 22.7118644067797%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 24.0061633281972%, #bcbddc 24.0061633281972%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 29.4144838212635%, #bcbddc 29.4144838212635%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 38.0585516178736%, #bcbddc 38.0585516178736%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 11.0631741140216%, #bcbddc 11.0631741140216%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 10%, #bcbddc 10%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null}]},{"id":"Roads_v_walk_cycle","name":"Roads_v_walk_cycle","type":"numeric","format":{"cell":{"digits":2},"aggregated":{"digits":2}},"header":"Roads v walk cycle","headerVAlign":"center","style":[{"backgroundImage":"linear-gradient(90deg, transparent 30.4789838378908%, #7fbf7b 30.4789838378908%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 38.7509822490223%, #7fbf7b 38.7509822490223%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 27.7288307151476%, #7fbf7b 27.7288307151476%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 43.2648385177765%, #7fbf7b 43.2648385177765%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 35.2740583966634%, #7fbf7b 35.2740583966634%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 39.8375523953507%, #7fbf7b 39.8375523953507%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 10%, #7fbf7b 10%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null},{"backgroundImage":"linear-gradient(90deg, transparent 31.7391047360642%, #7fbf7b 31.7391047360642%)","backgroundSize":"100% 75%","backgroundRepeat":"no-repeat","backgroundPosition":"center","color":null}]}],"defaultSorted":[{"id":"Geography","desc":false}],"highlight":true,"theme":{"headerStyle":{"&:hover[aria-sort]":{"background":"hsl(0, 0%, 96%)"},"&[aria-sort='ascending'], &[aria-sort='descending']":{"background":"hsl(0, 0%, 96%)"},"borderBottom":"2px solid #555"}},"crosstalkKey":["1","2","3","4","5","6","7","8"],"crosstalkGroup":"SharedDataaf25ef47","dataKey":"a2edf734555522a5a6edc24ecc3f45ed"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+  </div>
+</div>
+</div>
+</body>
+</html>
