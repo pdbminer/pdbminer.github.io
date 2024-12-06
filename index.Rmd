@@ -7,7 +7,7 @@ output:
 
 # About
 
-Hello, I’m Patrick, an urban geographer who focuses on mobilities and land use. I'm currently a PhD candidate at [the University of Edinburgh](https://www.ed.ac.uk). My [research](#research) focuses on shifting transport and land use policies to improve human and environmental health and wellbeing in cities.
+Hello, I’m Patrick, a geographer who focuses on mobilities, transport, and land use. I'm currently a final-year PhD candidate at [the University of Edinburgh](https://www.ed.ac.uk). My [research](#research) focuses on shifting policies to improve human and environmental health and wellbeing.
 
 Before starting PhD research, I worked in geography and urban planning in Chicago. I was a Geographic Information Science (GIS) Analyst at [IFF](https://www.iff.org), a nonprofit community development organisation. Prior to that, I worked at the [Chicago Architecture Center](https://www.architecture.org), where I led this museum-like organisation’s research and communications teams.
 
@@ -16,26 +16,17 @@ My master’s degree is in geography from the University of Edinburgh. My underg
 
 # Research
 
-My research focuses on transportation and land use in the context of climate change, social justice, traffic violence, and public health. The working title for my PhD project is **Reclaiming car space to improve human and environmental health in Edinburgh**. The main purpose of this project is to identify ways to change transport and land use in order to improve local quality of life. The research aims include defining and measuring the amount of space that cars occupy in Edinburgh, testing alternative uses for this car space, and exploring the social and political acceptability of such changes.
+My research focuses on mobilities, transport, and land use in the context of climate change, social justice, and public health. The working title for my PhD project is **Repurposing car space to improve human and environmental health and wellbeing**. The main purpose of this project is to identify ways to change transport and land use policies in order to improve quality of life. The research aims include defining and measuring the amount of space that cars occupy in Edinburgh, investigating alternative uses for this car space, and exploring the social and political acceptability of such changes.
 
-This research is funded by the Natural Environment Research Council (NERC), part of UK Research and Innovation (UKRI) and administered via the Edinburgh Earth, Ecology and Environment Doctoral Training Partnership (E4 DTP) at the University of Edinburgh. I started the PhD in 2021 and plan to complete it in 2025. I am based in Geography in the School of GeoSciences. The supervisory team is based at the University of Edinburgh, Coventry University, and the University of Oxford.
+This research is funded by the Natural Environment Research Council (NERC), part of UK Research and Innovation (UKRI) and administered via the Edinburgh Earth, Ecology and Environment Doctoral Training Partnership (E4 DTP) at the University of Edinburgh. I started the PhD in 2021 and plan to complete it in mid-2025. I am based in Geography in the School of GeoSciences. The supervisory team is based at the University of Edinburgh, Coventry University, and the University of Oxford.
 
-
-<table>
-<tr>
-<td style="padding-right: 18px;">
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="159686830"></div>
-</td>
-<td>
 **Latest publication:** [Miner, Patrick, Barbara M. Smith, Anant Jani, Geraldine McNeill, and Alfred Gathorne-Hardy. 2024. "Car Harm: A Global Review of Automobility’s Harm to People and the Environment". Journal of Transport Geography 115 (February).  https://doi.org/10.1016/j.jtrangeo.2024.103817](https://doi.org/10.1016/j.jtrangeo.2024.103817)
-</td>
-</tr>
-</table>
+
 
 
 # Contact
 
-Please contact me on [LinkedIn](https://www.linkedin.com/in/patrickminer) or [Twitter](https://twitter.com/pdbminer), or [email me through the University of Edinburgh](https://www.ed.ac.uk/profile/patrick-miner).
+Please contact me on [LinkedIn](https://www.linkedin.com/in/patrickminer) or [Bluesky](https://pdbminer.bsky.social), or [email me through the University of Edinburgh](https://www.ed.ac.uk/profile/patrick-miner).
 
 [View ORCID profile](https://orcid.org/0009-0002-2925-3258). 
 
