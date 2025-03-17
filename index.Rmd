@@ -7,32 +7,52 @@ output:
 
 # About
 
-Hello, I’m Patrick, a geographer who focuses on mobilities, transport, and land use. I'm currently a final-year PhD candidate at [the University of Edinburgh](https://www.ed.ac.uk). My [research](#research) focuses on shifting policies to improve human and environmental health and wellbeing.
+Hello, I’m Patrick, a geographer who studies mobilities, transport, and cities. I'm currently a final-year PhD candidate at [the University of Edinburgh](https://www.ed.ac.uk). My research uses mixed methods to explore the repurposing of car-allocated spaces to improve human and environmental health and wellbeing. 
 
-Before starting PhD research, I worked in geography and urban planning in Chicago. I was a Geographic Information Science (GIS) Analyst at [IFF](https://www.iff.org), a nonprofit community development organisation. Prior to that, I worked at the [Chicago Architecture Center](https://www.architecture.org), where I led this museum-like organisation’s research and communications teams.
+Before starting PhD research, I worked in geography and urban planning in Chicago. I was a Geographic Information Science (GIS) Analyst at [IFF](https://www.iff.org), a non-profit community development organisation. Prior to that, I worked at the [Chicago Architecture Center](https://www.architecture.org), where I led this museum-like organisation’s research and communications teams.
 
 My master’s degree is in geography from the University of Edinburgh. My undergraduate degree is in history and linguistics (with a minor in maths) from [Lawrence University](https://www.lawrence.edu). I studied writing at [Interlochen Arts Academy](https://www.interlochen.org) and grew up in Michigan, USA.
 
 
 # Research
 
-My research focuses on mobilities, transport, and land use in the context of climate change, social justice, and public health. The working title for my PhD project is **Repurposing car space to improve human and environmental health and wellbeing**. The main purpose of this project is to identify ways to change transport and land use policies in order to improve quality of life. The research aims include defining and measuring the amount of space that cars occupy in Edinburgh, investigating alternative uses for this car space, and exploring the social and political acceptability of such changes.
+My research focuses on mobilities, transport, and land use in the context of climate change, social justice, and public health. The working title for my PhD project is **Repurposing car space to improve human and environmental health and wellbeing in UK cities**. The main purpose of this project is to identify ways to change transport and land use policies in order to improve quality of life. The research aims include defining and measuring the amount of space allocated to cars in UK cities, investigating alternative uses for this car space, and exploring the social and political acceptability of such changes. The thesis draws on my training in critical geography and in both quantitative (e.g. spatial analysis, statistics) and qualitative techniques (e.g. interviews, focus groups).
 
-This research is funded by the Natural Environment Research Council (NERC), part of UK Research and Innovation (UKRI) and administered via the Edinburgh Earth, Ecology and Environment Doctoral Training Partnership (E4 DTP) at the University of Edinburgh. I started the PhD in 2021 and plan to complete it in mid-2025. I am based in Geography in the School of GeoSciences. The supervisory team is based at the University of Edinburgh, Coventry University, and the University of Oxford.
+This PhD research is funded by the Natural Environment Research Council (NERC), part of UK Research and Innovation (UKRI) and administered via the Edinburgh Earth, Ecology and Environment Doctoral Training Partnership (E4 DTP) at the University of Edinburgh. I started the PhD in 2021 and plan to complete it in 2025. I am based in Geography in the School of GeoSciences. The supervisory team is based at the University of Edinburgh, Coventry University, and the University of Oxford.
 
-**Latest publication:** [Miner, Patrick, Barbara M. Smith, Anant Jani, Geraldine McNeill, and Alfred Gathorne-Hardy. 2024. "Car Harm: A Global Review of Automobility’s Harm to People and the Environment". Journal of Transport Geography 115 (February).  https://doi.org/10.1016/j.jtrangeo.2024.103817](https://doi.org/10.1016/j.jtrangeo.2024.103817)
-
+<br>
+<table>
+ <tr>
+ <td style="padding-right: 18px;">
+ <span class="__dimensions_badge_embed__" data-doi="10.1016/j.jtrangeo.2024.103817" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+ </td>
+ <td>
+ **Latest publication:** [Miner, Patrick, Barbara M. Smith, Anant Jani, Geraldine McNeill, and Alfred Gathorne-Hardy. 2024. **"Car Harm: A Global Review of Automobility’s Harm to People and the Environment"**. _Journal of Transport Geography_.](https://doi.org/10.1016/j.jtrangeo.2024.103817)
+ </td>
+ </tr>
+</table>
 
 
 # Contact
 
-Please contact me on [LinkedIn](https://www.linkedin.com/in/patrickminer) or [Bluesky](https://pdbminer.bsky.social), or [email me through the University of Edinburgh](https://www.ed.ac.uk/profile/patrick-miner).
+Please contact me through one of the options below:  
 
-[View ORCID profile](https://orcid.org/0009-0002-2925-3258). 
+* [Bluesky](https://pdbminer.bsky.social)  
+* [LinkedIn](https://www.linkedin.com/in/patrickminer)  
+* [Email through University of Edinburgh](https://www.ed.ac.uk/profile/patrick-miner)  
 
-<br><br>
+Research profiles:  
+
+* [ResearchGate](https://www.researchgate.net/profile/Patrick-Miner)  
+* [Google Scholar](https://scholar.google.com/citations?user=LiUyty0AAAAJ)  
+* [Academia](https://edinburgh.academia.edu/PatrickMiner)  
+* [Scopus](https://www.scopus.com/authid/detail.uri?authorId=57472550400)  
+* [ORCID](https://orcid.org/0009-0002-2925-3258)  
+* [Edinburgh Research Explorer](https://www.research.ed.ac.uk/en/persons/patrick-miner)  
+
+<br>
 ![View of Waverley train station](Waverley.jpg)
 <br><br>
 
 
-Copyright © 2021-2024 Patrick Miner.
+Copyright © 2021-2025 Patrick Miner.
