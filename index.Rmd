@@ -5,6 +5,12 @@ output:
     css: "style.css"
 ---
 
+<br>
+![Photo](Front_gardens.jpg)
+Photo of two front gardens. One is paved for parking and one is vegetated.
+<br><br>
+
+
 # About
 
 Hello, I’m Patrick, a geographer who studies mobilities, transport, land use, and cities. I've recently submitted my PhD thesis at [the University of Edinburgh](https://www.ed.ac.uk). My research explores the repurposing of car-allocated land to improve multispecies health and wellbeing. 
@@ -50,9 +56,5 @@ Research profiles:
 * [ORCID](https://orcid.org/0009-0002-2925-3258)  
 * [Edinburgh Research Explorer](https://www.research.ed.ac.uk/en/persons/patrick-miner)  
 
-<br>
-![Photo of two front gardens. One is paved for parking and one is vegetated](Front_gardens.jpg)
 <br><br>
-
-
 Copyright © 2021-2026 Patrick Miner.
