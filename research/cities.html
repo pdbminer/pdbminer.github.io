@@ -19,11 +19,30 @@
       font-weight: 300;
       font-family: 'Lato', sans-serif;
       background-color: white;
+	  margin: 0;
+	  padding: 0;
     }
     div.margin1 {
       margin: 40px;
-      }
+	  }
+	.navbar {
+	background-color: black;
+	overflow: hidden;
+	}
+	.navbar a {
+	float: left;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+	.navbar a:hover {
+	background-color: #4a1486;
+	}
+	.navbar a.active {
+	background-color: #4a1486;
+	}
 </style>
+
 <script src="lib/jquery-3.5.1/jquery.min.js"></script>
 <link href="lib/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet" />
 <script src="lib/crosstalk-1.2.1/js/crosstalk.min.js"></script>
@@ -40,8 +59,14 @@
 
 </head>
 <body>
+<div class="navbar">
+  <a href="car_space">Main</a>
+  <a href="cities">Cities</a>
+  <a href="LTLAs">Local authorities</a>
+  <a href="postcodes">Postcodes</a>
+</div>
 <div class="margin1">
-<h2>Transport space in GB cities</h2>
+<h2>Transport space in GB: Cities</h2>
 
 <div style="display: flex; &#10;          flex-wrap: wrap; &#10;          justify-content: space-between;&#10;          row-gap: 40px;">
   <div style="width: 25%">
