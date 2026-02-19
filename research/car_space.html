@@ -15,7 +15,7 @@
       font-family: 'Lato', sans-serif;
     }
     body {
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 300;
       font-family: 'Lato', sans-serif;
       background-color: white;
@@ -34,12 +34,19 @@
 	color: white;
 	padding: 14px 16px;
 	text-decoration: none;
+	font-size: 16px;
+	font-weight: 300;
 	}
 	.navbar a:hover:not(.active) {
 	background-color: #4a1486;
 	}
 	.navbar a.active {
 	background-color: #4a1486;
+	}
+	a {
+	color: #4a1486;
+	font-weight: 600;
+	text-decoration: none;
 	}
 </style>
 </head>
@@ -53,6 +60,13 @@
 </div>
 <div class="margin1">
 <h2>Transport space in GB</h2>
-<p>On these pages, interactive tables from [Miner et al. 2026 paper] are shared. Results are based on data from Ordnance Survey and OpenStreetMap.</p>
+<p>This small website includes interactive tables from [Miner et al. 2026 paper]. Results are based on data from Ordnance Survey and OpenStreetMap.</p>
 
+<p>Transport-allocated land is presented at three geographic levels:</p>
+    <ul>
+      <li><a href="cities">Cities</a>: Urban centres based on the degree of urbanisation classification and a minimum population of 100,000.</li>
+      <li><a href="LTLAs">Local authorities</a>: In Scotland and Wales, there are 32 and 22 local authorities, respectively. In England, the local authority structure is more complex; this table displays "lower tier local authorities (LTLAs)".</li>
+      <li><a href="postcodes">Postcodes</a>: Postcode districts are the "first half" of a postcode, such as "EH8" for part of central Edinburgh.</li>
+	</ul>
+<p>Across all geographies, "HH" stands for "households." Land areas are given in square kilometres (km<sup>2</sup>). Population density is in people per km<sup>2</sup> of buildings (building footprints). Transport land areas are given in square metres (m<sup>2</sup>) per person.</p>
 </div>
