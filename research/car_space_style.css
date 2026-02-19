@@ -1,0 +1,38 @@
+    h1 {
+      font-size: 44px;
+      font-weight: 900;
+      font-family: 'Lato', sans-serif;
+    }
+    h2 {
+      font-size: 22px;
+      font-weight: 800;
+      font-family: 'Lato', sans-serif;
+    }
+    body {
+      font-size: 14px;
+      font-weight: 300;
+      font-family: 'Lato', sans-serif;
+      background-color: white;
+	  margin: 0;
+	  padding: 0;
+    }
+    div.margin1 {
+      margin: 40px;
+	  }
+	.navbar {
+	background-color: black;
+	overflow: hidden;
+	}
+	.navbar a {
+	float: left;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 16px;
+	}
+	.navbar a:hover:not(.active) {
+	background-color: #4a1486;
+	}
+	.navbar a.active {
+	background-color: #4a1486;
+	}
